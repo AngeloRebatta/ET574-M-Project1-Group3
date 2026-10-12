@@ -1,0 +1,7 @@
+ID,TYPE,COMMIT #,STATUS,DESCRIPTION,REPORTER,ASSIGNEE,DUE,CREATED,RESOLVED,NOTES
+1,task,,open,Create initial project structure,,Angelo,12-Oct,12-Oct,,Create main.py tracker.py data.py and issue tracker
+2,task,,open,Main Menu & Program Flow,,,25-Oct,12-Oct,,Student A assignment
+3,task,,open,Add Session Function,,,25-Oct,12-Oct,,Student B assignment
+4,task,,open,Summary & View Functions,,,25-Oct,12-Oct,,Student C assignment
+5,task,,open,Test full program,,,25-Oct,12-Oct,,Shared responsibility
+6,task,,open,Prepare final submission screenshots,,,25-Oct,12-Oct,,Collaborators source code commit history output and issue tracker
