@@ -29,4 +29,12 @@ def main():
         elif choice == "3":
             tracker.view_all()
         elif choice == "4":
+            print("Goodbye!")
             break
+        else:
+            print("Invalid choice. Please enter a number from 1 to 4.")
+
+
+# Run main() only when this file is executed directly, not when imported
+if __name__ == "__main__":
+    main()
