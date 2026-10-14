@@ -5,4 +5,4 @@ ID,TYPE,COMMIT #,STATUS,DESCRIPTION,REPORTER,ASSIGNEE,DUE,CREATED,RESOLVED,NOTES
 4,task,,open,Summary & View Functions,Angelo,Marcus,25-Oct,12-Oct,,Student C assignment
 5,task,,open,Test full program,Angelo,Diego Angelo Marcus,25-Oct,12-Oct,,Shared responsibility
 6,task,,open,Prepare final submission screenshots,Angelo,Diego Angelo Marcus,25-Oct,12-Oct,,Collaborators source code commit history output and issue tracker
-7,task,,open,Define parallel lists in data.py and function stubs in tracker.py,Diego,Diego,14-Oct,13-Oct,,Shared base so A B and C can work in parallel
+7,task,2855de1,closed,Define parallel lists in data.py and function stubs in tracker.py,Diego,Diego,14-Oct,13-Oct,13-Oct,Shared base so A B and C can work in parallel
