@@ -17,13 +17,17 @@ def add_session():
 
 
 def view_all():
-    """Print every saved session as a formatted list.
+    if len(data.app_names) == 0:
+        print("\nNo sessions recorded yet.")
+        return
+    print("\nAll Sessions")
+    print(f"{'#':<4}{'App/Site':<20}{'Minutes':<10}{'Category':<15}Notes")
+    
+    for i in range(len(data.app_names)):
+        note = data.notes[i] if data.notes[i] else "-"
+        print(f"{i + 1:<4}{data.app_names[i]:<20}{data.minutes[i]:<10}"
+              f"{data.categories[i]:<15}{note}")
 
-    Student C (Marcus).
-    Loops over the parallel lists in data.py using the same index for
-    each list. Prints a message instead if there are no sessions.
-    """
-    pass
 
 
 def view_summary():
