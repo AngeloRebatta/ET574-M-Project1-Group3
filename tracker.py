@@ -31,11 +31,19 @@ def view_all():
 
 
 def view_summary():
-    """Print a summary report of all saved sessions.
 
-    Student C (Marcus).
-    Shows total minutes, total number of sessions, average minutes per
-    session, and the maximum and minimum minutes in a single session.
-    Prints a message instead if there are no sessions.
-    """
-    pass
+    if len(data.minutes) == 0:
+        print("\nNo sessions recorded yet.")
+        return
+
+    total = sum(data.minutes)
+    count = len(data.minutes)
+    average = total / count
+
+    print("\nSummary Report")
+    print("-" * 30)
+    print(f"Total minutes:        {total}")
+    print(f"Total sessions:       {count}")
+    print(f"Average per session:  {average:.1f}")
+    print(f"Longest session:      {max(data.minutes)}")
+    print(f"Shortest session:     {min(data.minutes)}")
