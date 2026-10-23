@@ -31,8 +31,9 @@ def view_all():
     print(f"{'#':<4}{'App/Site':<20}{'Minutes':<10}{'Category':<15}Notes")
     
     for i in range(len(data.app_names)):
+        name = data.app_names[i][:19]
         note = data.notes[i] if data.notes[i] else "-"
-        print(f"{i + 1:<4}{data.app_names[i]:<19}{data.minutes[i]:<10}"
+        print(f"{i + 1:<4}{data.app_names[i][:19]:<20}{data.minutes[i]:<10}"
               f"{data.categories[i]:<15}{note}")
 
 
