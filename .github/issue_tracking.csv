@@ -3,6 +3,6 @@ ID,TYPE,COMMIT #,STATUS,DESCRIPTION,REPORTER,ASSIGNEE,DUE,CREATED,RESOLVED,NOTES
 2,task,eb6a56a,closed,Main Menu & Program Flow,Angelo,Diego,25-Oct,12-Oct,13-Oct,Student A assignment
 3,task,776a738,closed,Add Session Function,Angelo,Angelo,25-Oct,12-Oct,22-Oct,Student B assignment - add_session completed and merged in PR #8
 4,task,ed9b7aa,closed,Summary & View Functions,Angelo,Marcus,25-Oct,12-Oct,17-Oct,Student C assignment
-5,task,,open,Test full program,Angelo,Diego Angelo Marcus,25-Oct,12-Oct,,Shared responsibility
-6,task,,open,Prepare final submission screenshots,Angelo,Diego Angelo Marcus,25-Oct,12-Oct,,Collaborators source code commit history output and issue tracker
+5,task,1b17fa3,closed,Test full program,Angelo,Diego Angelo Marcus,25-Oct,12-Oct,25-Oct,Shared responsibility - full program tested in Codespaces
+6,task,1b17fa3,closed,Prepare final submission screenshots,Angelo,Diego Angelo Marcus,25-Oct,12-Oct,25-Oct,Collaborators source code commit history output and issue tracker
 7,task,2855de1,closed,Define parallel lists in data.py and function stubs in tracker.py,Diego,Diego,14-Oct,13-Oct,13-Oct,Shared base so A B and C can work in parallel
