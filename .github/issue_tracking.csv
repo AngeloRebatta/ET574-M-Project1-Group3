@@ -1,7 +1,7 @@
 ID,TYPE,COMMIT #,STATUS,DESCRIPTION,REPORTER,ASSIGNEE,DUE,CREATED,RESOLVED,NOTES
 1,task,68e5118,closed,Create initial project structure,Angelo,Angelo,12-Oct,12-Oct,12-Oct,Create main.py tracker.py data.py and issue tracker
 2,task,eb6a56a,closed,Main Menu & Program Flow,Angelo,Diego,25-Oct,12-Oct,13-Oct,Student A assignment
-3,task,,open,Add Session Function,Angelo,Angelo,25-Oct,12-Oct,,Student B assignment
+3,task,776a738,closed,Add Session Function,Angelo,Angelo,25-Oct,12-Oct,22-Oct,Student B assignment - add_session completed and merged in PR #8
 4,task,ed9b7aa,closed,Summary & View Functions,Angelo,Marcus,25-Oct,12-Oct,17-Oct,Student C assignment
 5,task,,open,Test full program,Angelo,Diego Angelo Marcus,25-Oct,12-Oct,,Shared responsibility
 6,task,,open,Prepare final submission screenshots,Angelo,Diego Angelo Marcus,25-Oct,12-Oct,,Collaborators source code commit history output and issue tracker

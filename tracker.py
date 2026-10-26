@@ -13,8 +13,44 @@ def add_session():
     (all four together, only after every value is valid) and prints
     "Session added."
     """
-    pass
+    while True:
+        app_name = input("Enter app/site name: ").strip()
 
+        if app_name == "":
+            print("App/site name cannot be empty.")
+        else:
+            break
+
+    while True:
+        try:
+            minutes = int(input("Enter minutes spent: "))
+        except ValueError:
+            print("Minutes must be a number.")
+            continue
+
+        if minutes <= 0:
+            print("Minutes must be greater than 0.")
+        else:
+            break
+        
+    while True:
+        category = input(
+            "Enter category (Social/School/Entertainment/Other): "
+        ).strip().capitalize()
+
+        if category not in ["Social", "School", "Entertainment", "Other"]:
+            print("Invalid category.")
+        else:
+            break
+
+    notes = input("Enter notes (optional): ")
+
+    data.app_names.append(app_name)
+    data.minutes.append(minutes)
+    data.categories.append(category)
+    data.notes.append(notes)
+
+    print("Session added.")
 
 def view_all():
     """Print every saved session as a formatted list.
